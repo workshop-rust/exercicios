@@ -1,0 +1,1 @@
+Em todos estes exercícios, os alunos devem pensar em tipagem estática do Rust e como corrigir os tipos de atribuições ou usar o tipo adequado para o valor desejado. Alguns erros podem ser corrigidos com casting, outros com troca de tipo da variável, e alguns exigem mudar o valor atribuído.
