@@ -1,0 +1,51 @@
+//exercicio 1
+fn main() {
+    let numero_pequeno: u8 = 250;
+    
+    let valor_flutuante: f46 = 10.5;
+    
+    let esta_ativo: bool = true
+    
+    let letra: char = "C";
+    
+    let frase: &str = "Este é um workshop de Rust!";
+
+    println!("{}", numero_pequeno);
+    println!("{}", valor_flutuante);
+    println!("{}", esta_ativo);
+    println!("{}", letra);
+    println!("{}", frase);
+}
+
+
+//exercicio 2 //
+
+fn main() {
+    let s1 = String::from("workshop de Soroban");
+    
+    calcular_tamanho(s1);
+    
+    println!("A string original é: {}", s1); 
+    
+
+    fn calcular_tamanho(s: String) {
+        let tamanho = s.len()
+        println!("O tamanho da string é: {}", tamanho);
+    }
+}
+
+//exercicio 3//
+
+fn main() {
+    let n1: f64 = 8.0
+    let n2: f64 = 7.5;
+    let n3: f64 = 6.0;
+
+    let media = (n1 + n2 + n3) / 3;
+
+    if media >= 7.0
+        println!("Aprovado");
+    else {
+        println!("Reprovado");
+    }
+}
